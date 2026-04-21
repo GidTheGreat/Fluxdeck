@@ -16,7 +16,6 @@ It is built using Python threading and Rich’s live rendering system.
 
 ---
 
-## Installation
 
 ### Requirements
 - Python 3.8+
