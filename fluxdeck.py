@@ -15,6 +15,8 @@ class FluxDeck():
     self.lock = threading.Lock()
     flux_thread=threading.Thread(target=self.flux_core)
     flux_thread.start()
+    flux_thread.join()
+
     
   def flux(self, category, info):
     """Update the content being displayed"""
