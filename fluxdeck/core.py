@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 __version__ = "0.1.0"
+
 from rich.console import Console
 from rich.live import Live
 import asyncio
@@ -15,7 +17,6 @@ class FluxDeck():
     self.lock = threading.Lock()
     flux_thread=threading.Thread(target=self.flux_core)
     flux_thread.start()
-    flux_thread.join()
 
     
   def flux(self, category, info):
