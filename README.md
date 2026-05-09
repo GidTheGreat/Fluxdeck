@@ -22,10 +22,12 @@ It is built using Python threading and Rich’s live rendering system.
 - rich
 
 Install dependency:
-```pip install requirements.txt
+```
+pip install requirements.txt
 ```
 pip install compatible
-```pip install git+https://github.com/GidTheGreat/Fluxdeck.git
+```
+pip install git+https://github.com/GidTheGreat/Fluxdeck.git
 ```
 
 ## Example Usage
